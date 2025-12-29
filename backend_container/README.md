@@ -1,4 +1,4 @@
-## Part 9: Containerizing a Node.js Backend
+# Part 9: Containerizing a Node.js Backend
 
 ### 1 Goal & Context
 
@@ -302,3 +302,4 @@ docker stop api
 docker rm api
 docker system prune -f           # caution: cleans stopped containers, dangling images etc.
 ```
+[Multi-Stage Build Notes](./multi-stage_build.md)
