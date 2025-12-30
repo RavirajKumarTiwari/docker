@@ -13,7 +13,7 @@ node_modules/
 # Docker
 # .dockerignore
 .docker/
-docker-compose.yml
+#docker-compose.yml
 docker-compose.override.yml
 *.dockerignore
 
